@@ -1,0 +1,13 @@
+fragment PostType on Post {
+  id
+  title
+  textShortened
+  points
+  creatorId
+  created_at
+  voteStatus
+  creator {
+    id
+    username
+  }
+}
